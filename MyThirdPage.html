@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/MyThirdPage.css"/>
+    <link rel="stylesheet" type="text/css" href="css/edslider.css">
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.edslider.js"></script>
+</head>
+<body>
+<div class="nav">
+    <nav>
+        <ul>
+            <li><a href="#video1">欧文集锦</a></li>
+            <li><a href="#video4">库里集锦</a></li>
+            <li><a href="#video2">詹皇集锦</a></li>
+            <li><a href="#video3">科比集锦</a></li>
+            <li><a href="#video1">保罗集锦</a></li>
+            <li><a href="#video1">哈登集锦</a></li>
+            <li><a href="#video1">杜少集锦</a></li>
+            <li><a href="#video1">威少集锦</a></li>
+
+        </ul>
+    </nav>
+</div>
+    <div class="container">
+        <ul class="mySlideshow">
+            <li class="first">
+                <a href="https://v.qq.com/x/cover/kz274rtyu9yflhb/p0023t052j6.html?ptag=qqbrowser"> <img
+                        src="images/勇士对马刺.jpg" class="animated fadeIn"></a>
+            </li>
+            <li class="second">
+                <a href="https://v.qq.com/x/cover/fbyyufgw7uj9xnl/p00238xv72l.html"> <img src="images/火箭对勇士.jpg"
+                                                                                          class="animated fadeInRight"></a>
+            </li>
+            <li class="third">
+                <a href="https://v.qq.com/x/cover/im8eioh72ekd6zx/a0023ke9b10.html"> <img src="images/骑士对马刺.jpg"
+                                                                                          class="animated fadeInLeft"></a>
+            </li>
+            <li class="fourth">
+                <a href="https://v.qq.com/x/cover/bk4osypfea82dzg/k0023su8yqv.html"> <img src="images/骑士对凯尔特人.jpg"
+                                                                                          class="animated fadeInRight"></a>
+            </li>
+            <li class="fifth">
+                <a href="https://v.qq.com/x/cover/1pn8h870s9ujr9y/m0023nb4s7w.html"> <img src="images/火箭对雷霆.jpg"
+                                                                                          class="animated fadeInLeft"></a>
+            </li>
+            <li class="sixth">
+                <a href="http://www.fengup.com/news/60501.html"> <img src="images/总决赛.jpg" class="animated fadeInLeft"></a>
+            </li>
+        </ul>
+    </div>
+
+<div class="v1">
+    <video id="video1" controls="controls">
+        <source src="video/视频1.mp4" type="video/mp4">
+        <source src="video/视频1.ogg" type="video/ogg">
+    </video>
+</div>
+
+<div class="v2">
+    <video id="video2" controls="controls">
+        <source src="video/视频2.mp4" type="video/mp4">
+        <source src="video/视频2.ogg" type="video/ogg">
+    </video>
+</div>
+<div class="v3">
+    <video id="video3" controls="controls">
+        <source src="video/视频3.mp4" type="video/mp4">
+        <source src="video/视频3.ogg" type="video/ogg">
+    </video>
+</div>
+<div class="v4">
+    <video id="video4" controls="controls">
+        <source src="video/视频4.mp4" type="video/mp4">
+        <source src="video/视频4.ogg" type="video/ogg">
+    </video>
+</div>
+    <script>
+        $(document).ready(function () {
+            //Call plugin
+            $('.mySlideshow').edslider({
+                width: '150%',
+                height: 500
+            });
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,"宋体";
+    font-size: 14px;
+    background-image: url("../images/背景5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+div {
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 楷体;
+    font-size: x-large;
+    font-weight: bold;
+}
+.top{
+    width: 2500px;
+    height: 70px;
+    background-image: url(../images/动图1.gif);
+    background-position: top left;
+    background-repeat: repeat-x;
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    width: 950px;
+    height: 70px;
+    margin-left: 400px;
+    margin-right: 100px;
+    padding: 0
+}
+.menu ul span{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+}
+.menu li{
+    height: 34px;
+    float: left;
+    list-style-type: none;
+    padding: 8px 9px 0 13px;
+    display: list-item;
+}
+.menu a{
+    text-align: -webkit-match-parent;
+    font-family: 方正舒体;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.logo{
+    height: 110px;
+    background: linear-gradient(#e5e5e5,#fff, #e5e5e5);
+
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+    height: 500px;
+    box-shadow: 0px 5px 10px #888888;
+    margin-left: 300px;
+}
+.animated{
+    width: 900px;
+    height:500px;
+}
+.nav {
+    width: 1700px;
+    text-align: center;
+    margin: 0 auto;
+    height: 60px;
+    position: relative;
+    background: #ffffff;
+    background-color: firebrick;
+    float: left;
+
+}
+.nav p{
+    font-family: 楷体;
+    font-size: x-large;
+    font-weight: bold;
+}
+.f1 {
+
+    margin-right: 10px;
+    font-size: 14px;
+    color: #404040;
+    display: inline-block;
+    position: relative;
+    width: 150px;
+}
+
+.first-block{
+    width: 600px;
+    height: 385px;
+    float: left;
+    position: relative;
+    margin-left: 20px;
+
+    background-color: indianred;
+}
+.second-block{
+    width: 250px;
+    height: 385px;
+    float: left;
+    position: relative;
+
+    margin-right: 10px;
+}
+.third-block{
+    width: 600px;
+    height: 385px;
+    float: left;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: indianred;
+}
+.block-first {
+    width: 280px;
+    height: 360px;
+    float: left;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: indianred;
+    border-right: solid red;
+}
+.block-second{
+    width: 280px;
+    height: 360px;
+    float: left;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: indianred;
+}
+
+.NBA-news{
+    height: 27px;
+    position: relative;
+    margin-bottom: 5px;
+}
+.icon{
+    background: url("../images/篮球.png") no-repeat;
+    background-size: 39px 16px;
+    width: 36px;
+    height:44px;
+    float: left;
+    position: absolute;
+    top: 11px;
+    left: 5px;
+}
+.chinese{
+    color: #003b90;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0 22px;
+    position: absolute;
+    top: 6px;
+    left: 20px;
+}
+.english{
+    font-size: 16px;
+    font-weight: bold;
+    color: #003b90;
+    float: left;
+    padding-left: 46px;
+    position: absolute;
+    top: 6px;
+    left: 115px;
+    border-left: 1px solid #003b90;
+}
+.img{
+    height: 140px;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 302px;
+    border-bottom: none;
+}
+.li{
+    height: 190px;
+    width: 262px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 4px;
+    padding-left: 0px;
+    border-top: none;
+}
+.li a{
+    font-size: smaller;
+    font-weight: 66px;
+    font-family: 楷体;
+    color: black;
+}
+.li a:hover{
+    color: blue;
+    font-weight: bold;
+}
+.li-one{
+    height: 50px;
+    width: 120px;
+    float: left;
+    border-right: solid red;
+}
+.li-one a{
+    font-family: 华文行楷;
+    font-size: small;
+
+}
+.li-two{
+    height: 100px;
+    width: 120px;
+   float: left;
+}
+.li-two a{
+    font-family: 华文行楷;
+    font-size: small;
+}

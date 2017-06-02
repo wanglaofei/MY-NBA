@@ -1,0 +1,168 @@
+body {
+    background-image: url("../images/背景2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: lemonchiffon;
+    font-size: large;
+    font-weight: 100;
+    font-family: 宋体;
+    line-height: 36px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a, img {
+    border: 0;
+}
+
+.blank30 {
+    height: 30px;
+    overflow: hidden;
+}
+
+.jcImgScroll {
+    position: relative;
+    height: 380px;
+    margin: 180px auto 0 auto;
+}
+
+.jcImgScroll li {
+    border: 1px solid #ccc;
+}
+
+.jcImgScroll li a {
+    background: #fff;
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+.jcImgScroll li img, .jcImgScroll li, .jcImgScroll em, .jcImgScroll dl {
+    display: none;
+    border: 0 none;
+}
+
+.jcImgScroll li img {
+    width: 180%;
+    height: 180%;
+}
+
+.jcImgScroll em.sPrev {
+    background: url(../images/arrow-left.png) no-repeat left center;
+    top: 0%;
+}
+
+.jcImgScroll em.sNext {
+    background: url(../images/arrow-right.png) no-repeat right center;
+    left: -100%;
+}
+
+.jcImgScroll dl dd {
+    background: url(../images/NumBtn.png) no-repeat 0 bottom;
+    text-indent: -9em;
+}
+
+.jcImgScroll dl dd:hover, .jcImgScroll dl dd.curr {
+    background-position: 0 0;
+}
+div{
+    border: solid;
+    border-collapse: collapse;
+    border-color: #cccccc;
+    height: 920px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: paleturquoise;
+}
+
+nav ul {
+    width: 100%;
+    margin: 1em;
+    float: left;
+    border: transparent;
+}
+
+nav ul li {
+    float: right;
+    margin: 1px;
+    padding-right: 7%;
+
+}
+a{
+    text-decoration: none;
+    color: crimson;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 楷体;
+    font-size: larger;
+}
+nav ul li a:hover{
+    color: blanchedalmond;
+    background-color: aliceblue;
+}
+.h4 a:hover{
+    color: aquamarine;
+    background-color: #cccccc;
+}
+.h4{
+    color: maroon;
+}
+#詹姆斯{
+    margin-left: 10px;
+}
+#乔丹{
+   text-align: right;
+}
+#科比{
+    margin-left: 10px;
+
+}
+#韦德{
+    text-align: right;
+
+}
+#艾佛森{
+    margin-left: 10px;
+
+}
+#罗斯{
+    text-align: right;}
+#麦迪{
+    margin-left: 10px;
+
+}
+#哈登{
+    text-align: right;
+}
+#威少{
+    margin-left: 10px;
+
+}
+#left{
+    float: left;
+}
+#right{
+    float: right;
+}
+h2{
+    font-size: larger;
+    font-family: 华文行楷;
+    color: paleturquoise;
+}
