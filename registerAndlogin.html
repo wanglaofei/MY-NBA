@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>registerAndlogin</title>
+    <link rel="stylesheet" type="text/css" href="css/registerAndlogin.css">
+</head>
+<body>
+
+<div id="bg">
+    <fieldset>
+        <legend><h1 align="center">登录页面</h1></legend>
+        <br/> <br/>
+        <script>
+            function a(){
+                var a = document.getElementById("yonghuming").value;
+                var b = document.getElementById("mima").value;
+                if(a==''&&b==''){
+                    document.getElementById("aaa").href="";
+                }
+            }
+        </script>
+        <form id="myform" name="myform" action="#" method="post">
+            <p><strong>用户名</strong>&nbsp;<input type="text" id="yonghuming"/></p>
+            <br/>
+            <p><STRONG>密&nbsp;&nbsp;&nbsp;码 </STRONG>&nbsp;<input type="password" name="pwd" placeholder="输入数字，字母，符号" id="mima"/></p>
+            <br/>
+            <a href="MyForthPage.html" id="aaa">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+                    type="button" value="登录" style="width:70px;height:30px" onclick="a();"/></a>&nbsp;&nbsp;
+            <a href="register.html" >   <input type="button" value="注册" style="width:55px;height:30px" /></a>
+            &nbsp &nbsp
+            <a href="wlf.html" >   <input type="button" value="我简介" style="width:55px;height:30px" /></a>
+            </P>
+        </form>
+    </fieldset>
+</div>
+
+</body>
+</html>

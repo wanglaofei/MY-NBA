@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+</head>
+<body>
+<div id="tp">
+<form id="myform2" name="myform2" action="#"  method="post">
+        <fieldset>
+            <legend><h1  align="center">个人信息注册</h1></legend>
+
+            <dl>
+                <dt>
+                <dd><strong>用&nbsp;&nbsp;&nbsp;户&nbsp;&nbsp;&nbsp;名 </strong> <input type="text" id="yhm" name="yhm" style="width:300px; height: 30px;" /></dd>
+                <br/>
+                <dd><strong>请设置密码 </strong> <input type="password" id="mima" name="mima"style="width:300px; height: 30px;" /> </dd>
+                <br/>
+                <dd><strong>请确认密码 </strong><input type="password" id="rmima" name="rmima"style="width:300px; height: 30px;" /></dd>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+
+                <DD><strong>自 我 介绍 </strong><textarea row="50" cols="30" id="recommend" style="width:300px;height:70px;" >此处输入文本</textarea></DD>
+                <br/><br/>
+                <dd><strong>请提供jpg或png格式照片</strong><input type="file" id="photo"/></dd>
+                </dt>
+            </dl>
+           <a href="registerAndlogin.html" id="bbb"> <P><input type="button"  value="注册"  style="width:70px;height:40px;" onclick="b();"/></P></a>
+        </fieldset>
+</form>
+</div>
+<script>
+    function b(){
+        var a = document.getElementById("yhm").value;
+        var b = document.getElementById("mima").value;
+        var c = document.getElementById("rmima").value;
+        var d = document.getElementById("recommend").value;
+        if(a==''&&b==''&&c==''&&d==''){
+            document.getElementById("bbb").href="";
+        }
+    }
+</script>
+</body>
+</html>

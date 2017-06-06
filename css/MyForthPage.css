@@ -3,29 +3,9 @@ body,html{
     height: 100%;
     background-image: url("../images/01.jpg");
 }
-.right{
-    float: left;
 
-    height: 130%;
-    width: 400px;
-}
-.bordered {
-    border-style:solid;
-    width:600px;
-    height:300px;
-}
-#bg{
-    width:600px;
-    height:310px;
-    background: url(678.png);
-}
-#tp{
-    width:600px;
-    height: 620px;
-    background:url("12345.jpg")
-}
 .whole{
-    margin-left: 700px;
+    margin-left: 350px;
     position: absolute;
     float: left;
     height: 130%;
@@ -34,7 +14,7 @@ body,html{
     opacity: 0.8;
 }
 .title{
-    background-color: green;
+    background-color: turquoise;
     height: 10%;
 
 }
