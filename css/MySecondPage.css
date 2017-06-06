@@ -19,7 +19,7 @@ a{
     font-weight: bold;
 }
 .top{
-    width: 2500px;
+    width: 1510px;
     height: 70px;
     background-image: url(../images/动图1.gif);
     background-position: top left;
@@ -70,10 +70,10 @@ a{
     height:500px;
 }
 .nav {
-    width: 1700px;
+    width: 1500px;
     text-align: center;
     margin: 0 auto;
-    height: 60px;
+    height: 100px;
     position: relative;
     background: #ffffff;
     background-color: firebrick;

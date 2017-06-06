@@ -3,7 +3,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
 }
+
 div {
     display: block;
 }
@@ -52,31 +54,12 @@ div {
     width: 1500px;
     height:500px;
 }
-#video1{
-    width: 1300px;
-    height: 800px;
-}
 .v1{
     text-align: center;
 }
-#video2{
+.pic{
     width: 1300px;
-    height: 800px;
-}
-.v2{
-    text-align: center;
-}
-#video3{
-    width: 1300px;
-    height: 800px;
-}
-.v3{
-    text-align: center;
-}
-#video4{
-    width: 1300px;
-    height: 800px;
-}
-.v4{
-    text-align: center;
+    height: 650px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }

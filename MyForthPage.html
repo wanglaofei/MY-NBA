@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,60 +7,112 @@
     <link rel="stylesheet" type="text/css" href="css/MyForthPage.css">
 </head>
 <body>
-<div class="whole">
-<form>
-<p class="cha">你的姓名：<input type="text" class="name"></p>
-<p class="cha">你来自哪：<input type="text" class="where"></p></p>
-您的<b>职业</b>是：
-    <br><br>
-    <input type="radio" value="teacher">教师
-    <input type="radio" value="Student">学生
-    <input type="radio" value="worker">工人
-    <input type="radio" value="engineer">工程师
-    <br><br>
-    <em>我心目中的十大球星 <b>你喜欢谁</b></em>
-    <br><br>
-    <div class="star">
-    <input type="checkbox" value="科比">乔丹
-    <input type="checkbox" value="科比">詹姆斯
-    <input type="checkbox" value="科比">科比
-    <input type="checkbox" value="科比">韦德
-    <input type="checkbox" value="科比">库里
-    <input type="checkbox" value="科比">保罗
-    <input type="checkbox" value="科比">杜兰特
-    <input type="checkbox" value="科比">哈登
-    <input type="checkbox" value="科比">威少
-    <input type="checkbox" value="科比">邓肯
+<div class="right">
+    <div id="bg">
+        <div class="bordered"  >
+            <fieldset>
+                <legend><h1 align="center" >登录页面</h1></legend>
+                <br/> <br/>
+                <form id="myform" name="myform" action="#" method="post">
+                    <p><strong >用户名</strong>&nbsp;<input type="text" id="yonghuming"/></p>
+                    <br/>
+                    <p ><STRONG>密&nbsp;&nbsp;&nbsp;码</STRONG>&nbsp;<input type="password" id="mima"/></p>
+                    <br/>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input  type="button" value="登录" style="width:70px;height:30px" />&nbsp;&nbsp;
+                        <input type="button" value="注册" style="width:55px;height:30px" onclick="window.open('注册页面.HTML')"/>
+                    </P>
+                </form>
+            </fieldset>
+        </div>
     </div>
-    <br><br>
-您的<b>球龄多少：</b>
-    <select name="long" size="1">
-        <option value="1">新手刚上路
-        <option value="1">半年以内
-        <option value="1">一年
-        <option value="1">两年
-        <option value="1">三年
-        <option value="1">四年
-        <option value="1">五年
-        <option value="1">六年
-        <option value="1">七年
-        <option value="1">八年
-        <option value="1">九年
-        <option value="1">十年
-        <option value="1">十年以内
+    <form id="myform2" name="myform2" action="#"  method="post">
+        <div id="tp">
 
+            <fieldset>
+                <legend><h1  align="center">个人信息注册</h1></legend>
+                <hr align="center">
+                <dl>
+                    <dt>
+                    <dd><strong>用&nbsp;&nbsp;&nbsp;户&nbsp;&nbsp;&nbsp;名 </strong> <input type="text" id="yhm" name="yhm" style="width:300px; height: 30px;"/></dd>
+                    <br/>
+                    <dd><strong>请设置密码 </strong> <input type="password" id="mima" name="mima"style="width:300px; height: 30px;"/> </dd>
+                    <br/>
+                    <dd><strong>请确认密码 </strong><input type="password" id="rmima" name="rmima"style="width:300px; height: 30px;"/></dd>
+                    <br/>
+                    <br/>
+                        <br/>
+                        <br/>
 
-    </select>
-    <br><br>
+                    <DD><strong>自 我 介绍 </strong><textarea row="50" cols="30" id="recommend" style="width:300px;height:70px;">此处输入文本</textarea></DD>
+                    <br/><br/>
+                    <dd><strong>请提供jpg或png格式照片</strong><input type="file" id="photo"/></dd>
+                    </dt>
+                </dl>
+                <P><input type="button"  value="提交"  onclick=alert('提交成功，请重新登录！') style="width:70px;height:40px;" /></P>
+            </fieldset>
+        </div>
+    </form>
+</div>
+<div style="width: 1500px;height:100%;margin: auto;">
+    <div class="whole">
+        <div class="title">
+            <h1 style="text-align: center;">问卷调查</h1>
+        </div>
 
-<br>你对我的网站的建议:
-<br><textarea class="t1" cols="40" rows="12"></textarea>
-<br>你与NBA的前世与今生：
-<br><textarea class="t1" cols="40" rows="12"></textarea>
-<input type="submit" value="提交">
-<input type="reset"  value="复位">
-    <div class="intro">
-        <a href="wlf.html"> <p>我的自我介绍</p></a>
+            <form>
+                <p class="cha">你的姓名：<input type="text" class="name"></p>
+                <p class="cha">你来自哪：<input type="text" class="where"></p>
+                您的<b>职业</b>是：
+                <br><br>
+                <input type="radio" value="teacher">教师
+                <input type="radio" value="Student">学生
+                <input type="radio" value="worker">工人
+                <input type="radio" value="engineer">工程师
+                <br><br>
+                <em>我心目中的十大球星 <b>你喜欢谁</b></em>
+                <br><br>
+                <div class="star">
+                    <input type="checkbox" value="科比">乔丹
+                    <input type="checkbox" value="科比">詹姆斯
+                    <input type="checkbox" value="科比">科比
+                    <input type="checkbox" value="科比">韦德
+                    <input type="checkbox" value="科比">库里<br>
+                    <input type="checkbox" value="科比">保罗
+                    <input type="checkbox" value="科比">杜兰特
+                    <input type="checkbox" value="科比">哈登
+                    <input type="checkbox" value="科比">威少
+                    <input type="checkbox" value="科比">邓肯
+                </div><br><br>
+
+                您的<b>球龄多少：</b>
+                <select name="long" size="1">
+                    <option value="1">新手刚上路
+                    <option value="1">半年以内
+                    <option value="1">一年
+                    <option value="1">两年
+                    <option value="1">三年
+                    <option value="1">四年
+                    <option value="1">五年
+                    <option value="1">六年
+                    <option value="1">七年
+                    <option value="1">八年
+                    <option value="1">九年
+                    <option value="1">十年
+                    <option value="1">十年以内
+                </select>
+                <br><br>
+
+                <br>你对我的网站的建议:
+                <br><textarea class="t1" cols="40" rows="12"></textarea>
+                <br>你与NBA的前世与今生：
+                <br><textarea class="t1" cols="40" rows="12"></textarea>
+                <br>
+                <input id="a" type="button" value="提交">
+                <input id="b" type="button"  value="复位">
+            </form>
+        </center>
     </div>
+
+</div>
 </body>
 </html>

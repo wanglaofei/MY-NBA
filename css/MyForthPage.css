@@ -1,38 +1,66 @@
-body{
-    background-color: dimgray;
-    background-repeat: no-repeat;
-    background-image: url("../images/背景4.jpg");
-    background-size: cover;
-    background-position: center;
-    font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", tahoma, arial, "宋体";
-    text-align: 4px;
+body,html{
+    margin: 0;
+    height: 100%;
+    background-image: url("../images/01.jpg");
+}
+.right{
+    float: left;
+
+    height: 130%;
+    width: 400px;
+}
+.bordered {
+    border-style:solid;
+    width:600px;
+    height:300px;
+}
+#bg{
+    width:600px;
+    height:310px;
+    background: url(678.png);
+}
+#tp{
+    width:600px;
+    height: 620px;
+    background:url("12345.jpg")
 }
 .whole{
-    width: 250px;
-    height: 1000px;
-    margin-left:10px ;
+    margin-left: 700px;
+    position: absolute;
+    float: left;
+    height: 130%;
+    width: 800px;
+    background-color: white;
+    opacity: 0.8;
 }
-.cha{
-    font-family: 楷体;
-    font-size: larger;
-    font-weight: bold;
-}
-.star{
-    color: black;
-}
-a{
-    text-align: center;
-    text-decoration: none;
-    color: bisque;
-    font-size: large;
-    font-family: 华文行楷;
-    font-weight: bold;
-}
-a:hover{
-    color: lime;
+.title{
+    background-color: green;
+    height: 10%;
+
 }
 .intro{
-    width: 140px;
-    height: 30px;
-    margin-left: 1300px;
+    position: absolute;
+    height: 60px;
+    width: 200px;
+    background-image: url("../images/06.jpg");
+    margin-bottom: 10px;
+    margin-left: 900px;
+    opacity: 0.8;
+}
+#a{
+    width: 100px;
+    height: 50px;
+    background-color:blue;
+}
+#b{
+    width: 100px;
+    height: 50px;
+    background-color:blue;
+}
+a{
+    text-decoration: none;
+    color: turquoise;
+}
+a:hover{
+    color: bisque;
 }
